@@ -41,11 +41,11 @@ Scrape **public job listings** from the [official IBPS website](https://www.ibps
 - `pandas`
 
 ### Run Command
-```bash
 python ibps_scraper.py
 
 Output
 File: ibps_jobs.csv
+
 --------------------------------------------------------------------------------------------------------------------------
 
 2. Django REST API Task — Authentication API
@@ -77,15 +77,19 @@ git clone https://github.com/kadirzkhan/pinak_demo_task.git
 cd pinak_demo_task
 
 2. Create Virtual Environment
+ 
 python -m venv .venv
+
 .venv\Scripts\activate       # For Windows
-# OR
+
+ or
+ 
 source .venv/bin/activate    # For macOS/Linux
 
-3. Install Requirements
+4. Install Requirements
 pip install -r requirements.txt
 
-4. Run Django Server
+5. Run Django Server
 python manage.py runserver
 
 
@@ -105,27 +109,7 @@ How to Use:
 4.View the token in the response
 
 -------------------------------------------------------------------------------------------------------------------------
- Project Structure
-pinak_demo_task/
-│
-├── ibps_scraper.py             # Web scraping script
-├── ibps_jobs.csv               # Scraped job listings
-├── postman_collection.json     # Postman API test collection
-├── requirements.txt
-├── manage.py
-│
-├── pinak_demo/                 # Django project folder
-│   ├── settings.py
-│   ├── urls.py
-│   └── ...
-│
-└── api/                        # Django app for APIs
-    ├── views.py
-    ├── urls.py
-    ├── serializers.py
-    └── ...
------------------------------------------------------------------------------------------------------------------------
-
+ 
 Tech Stack
 Category         	Technologies
 Language	         Python 3.9+
@@ -195,8 +179,11 @@ Output:
 -----------------------------------------------------------------------------------------------------------------------
 
 Author
+
 Abdul Kadir
+
 📧 abdulkadir5108@gmail.com 
+
 🔗 GitHub Profile : https://github.com/kadirzkhan
 
 Thankyou for the opportunity 
